@@ -1,0 +1,278 @@
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.responsive-container {
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 70%;
+  }
+}
+
+.app-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  height: 60px;
+}
+
+.card-container {
+  background: #5763a5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.manager-image-sm {
+  width: 300px;
+}
+
+.manager-image-lg {
+  display: none;
+}
+
+.card-form-container {
+  background-color: #454f84;
+  border-radius: 14px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.form-heading {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.card-responsive {
+  width: 88%;
+  margin: 20px 0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f8fafc;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  height: 45px;
+}
+
+.input {
+  background-color: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.icon-container {
+  border-right: 1px solid #c3caea;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.btn-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  padding: 8px 28px;
+  color: #f8fafc;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .manager-image-sm {
+    display: none;
+  }
+
+  .manager-image-lg {
+    display: block;
+    max-width: 300px;
+  }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+  }
+}
+
+.manager-container {
+  background: #5763a5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 25px;
+}
+
+.passwords-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hr-line {
+  height: 1px;
+  background-color: #7683cb;
+  width: 100%;
+}
+
+.passwords-header-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.card-responsive-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+
+  height: 25px;
+  background-color: #f8fafc;
+}
+
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 100%;
+  border-right: 1px solid #c3caea;
+}
+.search-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.search-input {
+  height: 100%;
+  width: 100%;
+  background-color: none;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #f8fafc;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkbox-label {
+    font-size: 16px;
+  }
+}
+
+.no-passwords-image {
+  width: 280px;
+}
+
+.no-passwords-title {
+  font-size: 18px;
+  text-align: center;
+  color: #f8fafc;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.no-password-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-count {
+  font-size: 10px;
+  padding: 2px 12px;
+  border: 1px solid #c3caea;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.password-list-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

@@ -1,0 +1,95 @@
+* {
+  font-family: 'Roboto';
+}
+
+.password-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #7683cb;
+  color: #f8fafc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  
+}
+
+.details-container {
+  margin-left: 15px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px;
+  /* background-color: #f59e0b;*/
+}
+
+p {
+  margin: 0;
+}
+
+.website-text {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.delete-btn {
+  background: none;
+  outline: none;
+  border: none;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-icon {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+.stars-icon {
+  max-width: 100px;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.brown {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+
+.cyan {
+  background-color: #14b8a6;
+}
+
+.light-blue {
+  background-color: #7683cb;
+}
